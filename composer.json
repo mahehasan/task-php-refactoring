@@ -1,0 +1,22 @@
+{
+    "name": "mahehasan/refactoring",
+    "authors": [
+        {
+            "name": "Mahedi Hasan",
+            "email": "mahehasan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4":{
+            "Refactors\\": "classes/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "minimum-stability": "dev"
+}
